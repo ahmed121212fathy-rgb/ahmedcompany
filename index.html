@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MCA - Menoufia Courses Academy: أكاديمية تعليمية وتدريبية متطورة للأطفال والكبار في البرمجة، التكنولوجيا، اللغات، والمهارات الإبداعية.">
+    <title>MCA – Menoufia Courses Academy | نصنع المستقبل بالعلم والمهارة</title>
+    
+    <!-- خط Cairo العربي من Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- مكتبة الأيقونات Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- ربط ملف التنسيقات الخارجي -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== 1. شريط التنقل العلوي (Navbar) ==================== -->
+    <header class="header" id="header">
+        <div class="container navbar">
+            <!-- شعار الأكاديمية -->
+            <a href="#home" class="logo">
+                <span class="logo-badge">MCA</span>
+                <div class="logo-text">
+                    <strong>MCA Academy</strong>
+                    <small>Menoufia Courses Academy</small>
+                </div>
+            </a>
+
+            <!-- روابط القائمة -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+                    <li><a href="#about" class="nav-link">من نحن</a></li>
+                    <li><a href="#courses" class="nav-link">الكورسات</a></li>
+                    <li><a href="#kids" class="nav-link">برامج الأطفال</a></li>
+                    <li><a href="#adults" class="nav-link">برامج الكبار</a></li>
+                    <li><a href="#instructors" class="nav-link">المدربون</a></li>
+                    <li><a href="#gallery" class="nav-link">معرض الصور</a></li>
+                    <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+                </ul>
+            </nav>
+
+            <!-- زر القائمة للموبايل (Hamburger Menu) -->
+            <button class="hamburger" id="hamburger" aria-label="فتح القائمة">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ==================== 2. القسم الافتتاحي (Hero Section) ==================== -->
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-content fade-in">
+                    <span class="hero-tag">أكاديمية المنوفية للدورات التدريبية</span>
+                    <h1 class="hero-title">نصنع المستقبل <span>بالعلم والمهارة</span></h1>
+                    <p class="hero-description">
+                        في MCA نؤمن أن التعليم الحقيقي هو بداية النجاح، لذلك نقدم برامج تعليمية وتدريبية متطورة للأطفال والكبار في مجالات التكنولوجيا واللغات والمهارات الإبداعية.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#courses" class="btn btn-primary">
+                            <i class="fas fa-compass"></i> اكتشف الكورسات
+                        </a>
+                        <a href="#contact" class="btn btn-gold">
+                            <i class="fas fa-user-plus"></i> سجل الآن
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="طلاب يتعلمون في أكاديمية MCA">
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 3. قسم الإحصائيات (أرقام تجريبية قابلة للتعديل) ==================== -->
+        <section class="stats-section">
+            <div class="container stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-user-graduate"></i>
+                    <h3>+850</h3>
+                    <p>متدرب ومتدربة (نموذج تجريبي)</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>+16</h3>
+                    <p>برنامجاً تدريبياً متخصصاً</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>+15</h3>
+                    <p>مدرباً خبيراً ومعتمداً</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-award"></i>
+                    <h3>98%</h3>
+                    <p>نسبة رضا الطلاب وأولياء الأمور</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 4. قسم من نحن (About Us) ==================== -->
+        <section class="section about-section" id="about">
+            <div class="container about-container">
+                <div class="about-image fade-in">
+                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80" alt="بيئة التعلم في MCA Academy">
+                </div>
+                <div class="about-content fade-in">
+                    <span class="section-subtitle">من نحن</span>
+                    <h2 class="section-title">تعرف على <span>MCA Academy</span></h2>
+                    <p class="about-text">
+                        <strong>MCA</strong> مؤسسة تعليمية وتدريبية تهدف إلى تقديم تجربة تعليمية متطورة تجمع بين المعرفة النظرية والتطبيق العملي، وتعمل على تطوير مهارات الأطفال والشباب والكبار في التكنولوجيا والبرمجة واللغات والفنون والمهارات الرقمية.
+                    </p>
+                    <div class="vision-mission">
+                        <div class="vm-box">
+                            <div class="vm-icon"><i class="fas fa-eye"></i></div>
+                            <div>
+                                <h3>رؤيتنا</h3>
+                                <p>أن نكون مؤسسة رائدة في تطوير المهارات وبناء جيل قادر على مواكبة المستقبل.</p>
+                            </div>
+                        </div>
+                        <div class="vm-box">
+                            <div class="vm-icon"><i class="fas fa-bullseye"></i></div>
+                            <div>
+                                <h3>رسالتنا</h3>
+                                <p>تقديم تعليم عملي عالي الجودة يساعد المتعلمين على اكتشاف قدراتهم وتحقيق أهدافهم.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 5. قسم الكورسات والتخصصات (Courses & Filter) ==================== -->
+        <section class="section bg-light" id="courses">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">مساراتنا التدريبية</span>
+                    <h2 class="section-title">الكورسات <span>والتخصصات</span></h2>
+                    <p class="section-desc">اختر المسار المناسب لك أو لطفلك من بين باقة متنوعة من البرامج العملية الحديثة.</p>
+                </div>
+
+                <!-- أزرار الفلترة (Filter Buttons) -->
+                <div class="filter-buttons" id="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">جميع الكورسات</button>
+                    <button class="filter-btn" data-filter="kids">الأطفال</button>
+                    <button class="filter-btn" data-filter="adults">الكبار</button>
+                    <button class="filter-btn" data-filter="tech">التكنولوجيا</button>
+                    <button class="filter-btn" data-filter="languages">اللغات</button>
+                    <button class="filter-btn" data-filter="creative">المهارات الإبداعية</button>
+                </div>
+
+                <!-- شبكة الكورسات (16 تخصصاً كاملاً) -->
+                <div class="courses-grid" id="courses-grid">
+                    
+                    <!-- أولاً: التكنولوجيا والبرمجة -->
+                    <article class="course-card" data-category="adults tech">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Programming - البرمجة">
+                            <span class="course-badge">التكنولوجيا</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-code"></i></div>
+                            <h3>Programming – البرمجة</h3>
+                            <p>تعلم أساسيات البرمجة وبناء المواقع والتطبيقات خطوة بخطوة بأسلوب عملي يؤهلك لسوق العمل.</p>
+                            <button class="btn-details" data-course="Programming – البرمجة" data-target="كبار">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="course-card" data-category="adults tech">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" alt="Computer Science - علوم الحاسب">
+                            <span class="course-badge">التكنولوجيا</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-microchip"></i></div>
+                            <h3>Computer Science – علوم الحاسب</h3>
+                            <p>فهم عميق لبنية الحاسوب، الخوارزميات، هياكل البيانات، وأساسيات هندسة البرمجيات.</p>
+                            <button class="btn-details" data-course="Computer Science – علوم الحاسب" data-target="كبار">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="course-card" data-category="adults tech">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=600&q=80" alt="Cyber Security - الأمن السيبراني">
+                            <span class="course-badge">التكنولوجيا</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-shield-halved"></i></div>
+                            <h3>Cyber Security – الأمن السيبراني</h3>
+                            <p>تعرف على طرق حماية الأنظمة والشبكات والبيانات من الهجمات الإلكترونية والثغرات الأمنية.</p>
+                            <button class="btn-details" data-course="Cyber Security – الأمن السيبراني" data-target="كبار">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="course-card" data-category="adults tech">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80" alt="Computer Skills - مهارات الكمبيوتر">
+                            <span class="course-badge">التكنولوجيا</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-laptop"></i></div>
+                            <h3>Computer Skills – مهارات الكمبيوتر</h3>
+                            <p>إتقان التعامل الاحترافي مع أنظمة التشغيل، إدارة الملفات، والإنترنت والأدوات الرقمية الحديثة.</p>
+                            <button class="btn-details" data-course="Computer Skills – مهارات الكمبيوتر" data-target="كبار">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="course-card" data-category="adults tech">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80" alt="ICDL">
+                            <span class="course-badge">التكنولوجيا</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-file-word"></i></div>
+                            <h3>ICDL – الرخصة الدولية لقيادة الحاسب</h3>
+                            <p>تدريب شامل على حزمة Microsoft Office (Word, Excel, PowerPoint) وأساسيات تكنولوجيا المعلومات.</p>
+                            <button class="btn-details" data-course="ICDL – الرخصة الدولية لقيادة الحاسب" data-target="كبار">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="course-card" data-category="adults tech">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=600&q=80" alt="Artificial Intelligence">
+                            <span class="course-badge">التكنولوجيا</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-robot"></i></div>
+                            <h3>Artificial Intelligence – الذكاء الاصطناعي</h3>
+                            <p>استخدام أدوات الذكاء الاصطناعي الحديثة لزيادة الإنتاجية، وفهم مبادئ تعلم الآلة وتطبيقاتها.</p>
+                            <button class="btn-details" data-course="Artificial Intelligence – الذكاء الاصطناعي" data-target="كبار">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- ثانياً: اللغات -->
+                    <article class="course-card" data-category="adults languages">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1543165796-5426273eaab3?auto=format&fit=crop&w=600&q=80" alt="English - اللغة الإنجليزية">
+                            <span class="course-badge">اللغات</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-language"></i></div>
+                            <h3>English – اللغة الإنجليزية</h3>
+                            <p>تطوير مهارات المحادثة والاستماع والقراءة والكتابة بطلاقة وثقة لجميع المستويات.</p>
+                            <button class="btn-details" data-course="English – اللغة الإنجليزية" data-target="كبار">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="course-card" data-category="adults languages">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=600&q=80" alt="German - اللغة الألمانية">
+                            <span class="course-badge">اللغات</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-globe-europe"></i></div>
+                            <h3>German – اللغة الألمانية</h3>
+                            <p>تعلم اللغة الألمانية من الصفر وفق المعايير الأوروبية المعتمدة للدراسة والعمل.</p>
+                            <button class="btn-details" data-course="German – اللغة الألمانية" data-target="كبار">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="course-card" data-category="adults languages">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80" alt="French - اللغة الفرنسية">
+                            <span class="course-badge">اللغات</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-comments"></i></div>
+                            <h3>French – اللغة الفرنسية</h3>
+                            <p>برامج تفاعلية لإتقان النطق والقواعد والمحادثة باللغة الفرنسية بأسلوب مبسط وممتع.</p>
+                            <button class="btn-details" data-course="French – اللغة الفرنسية" data-target="كبار">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- ثالثاً: المهارات الإبداعية -->
+                    <article class="course-card" data-category="adults creative">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=600&q=80" alt="Arabic Calligraphy - الخط العربي">
+                            <span class="course-badge">المهارات الإبداعية</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-pen-nib"></i></div>
+                            <h3>Arabic Calligraphy – الخط العربي</h3>
+                            <p>إتقان قواعد الخطوط العربية الأصيلة (الرقعة، النسخ، الديواني) وتنمية الذوق الفني.</p>
+                            <button class="btn-details" data-course="Arabic Calligraphy – الخط العربي" data-target="كبار">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="course-card" data-category="adults creative">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=600&q=80" alt="Drawing & Art - الرسم والفنون">
+                            <span class="course-badge">المهارات الإبداعية</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-palette"></i></div>
+                            <h3>Drawing & Art – الرسم والفنون</h3>
+                            <p>تعلم أساسيات الرسم والتظليل ونظرية الألوان لإخراج أعمال فنية احترافية.</p>
+                            <button class="btn-details" data-course="Drawing & Art – الرسم والفنون" data-target="كبار">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- رابعاً: البرامج التعليمية للأطفال -->
+                    <article class="course-card" data-category="kids tech">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80" alt="Kids Programming">
+                            <span class="course-badge badge-gold">برامج الأطفال</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-puzzle-piece"></i></div>
+                            <h3>Kids Programming – برمجة الأطفال</h3>
+                            <p>تعليم الأطفال منطق البرمجة وصناعة الألعاب والقصص التفاعلية باستخدام Scratch وPython.</p>
+                            <button class="btn-details" data-course="Kids Programming – برمجة الأطفال" data-target="أطفال">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="course-card" data-category="kids tech">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=600&q=80" alt="Kids Computer">
+                            <span class="course-badge badge-gold">برامج الأطفال</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-desktop"></i></div>
+                            <h3>Kids Computer – كمبيوتر الأطفال</h3>
+                            <p>تأسيس الطفل في استخدام الحاسوب بأمان وإتقان البرامج الأساسية والمهارات الرقمية.</p>
+                            <button class="btn-details" data-course="Kids Computer – كمبيوتر الأطفال" data-target="أطفال">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="course-card" data-category="kids languages">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=600&q=80" alt="English for Kids">
+                            <span class="course-badge badge-gold">برامج الأطفال</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-book-reader"></i></div>
+                            <h3>English for Kids – الإنجليزية للأطفال</h3>
+                            <p>تأسيس الصوتيات (Phonics) والمحادثة والمفردات للأطفال من خلال الأنشطة التفاعلية.</p>
+                            <button class="btn-details" data-course="English for Kids – الإنجليزية للأطفال" data-target="أطفال">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="course-card" data-category="kids">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178?auto=format&fit=crop&w=600&q=80" alt="Mental Math">
+                            <span class="course-badge badge-gold">برامج الأطفال</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-calculator"></i></div>
+                            <h3>Mental Math & Youth Math</h3>
+                            <p>تنمية سرعة البديهة والتركيز والقدرات الحسابية الذهنية للطلاب والناشئين.</p>
+                            <button class="btn-details" data-course="Mental Math & Youth Math" data-target="أطفال">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="course-card" data-category="kids creative">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=600&q=80" alt="Creative Skills for Kids">
+                            <span class="course-badge badge-gold">برامج الأطفال</span>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-icon"><i class="fas fa-paint-brush"></i></div>
+                            <h3>Creative Skills for Kids</h3>
+                            <p>تنمية الخيال والإبداع والمهارات اليدوية والفنية لدى الأطفال في بيئة محفزة.</p>
+                            <button class="btn-details" data-course="Creative Skills for Kids" data-target="أطفال">
+                                تفاصيل الكورس <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 6. قسم برامج الأطفال (Kids Section) ==================== -->
+        <section class="section kids-section" id="kids">
+            <div class="container">
+                <div class="kids-wrapper">
+                    <div class="kids-content fade-in">
+                        <span class="section-subtitle">أجيال المستقبل</span>
+                        <h2 class="section-title">استثمر في عقل طفلك اليوم، <span>ليصنع مستقبل الغد</span></h2>
+                        <p>
+                            نحرص في MCA Academy على تقديم مناهج مخصصة للأطفال تراعي الفروق الفردية وتعتمد على التعلم باللعب والتطبيق العملي، لتحويل الطفل من مجرد مستخدم للتكنولوجيا إلى مبدع ومبتكر.
+                        </p>
+                        <div class="kids-skills-grid">
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <div>
+                                    <h4>التفكير المنطقي</h4>
+                                    <p>تدريب الطفل على تحليل المشكلات وترتيب الأفكار.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <div>
+                                    <h4>تنمية الإبداع</h4>
+                                    <p>مساحة حرة للابتكار في البرمجة والفنون.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-cogs"></i>
+                                <div>
+                                    <h4>حل المشكلات</h4>
+                                    <p>بناء مشاريع حقيقية تعزز الثقة بالنفس.</p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-laptop-code"></i>
+                                <div>
+                                    <h4>المهارات الرقمية</h4>
+                                    <p>استخدام التكنولوجيا بشكل آمن ومثمر.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-gold">احجز مقعداً لطفلك الآن</a>
+                    </div>
+                    <div class="kids-image fade-in">
+                        <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=800&q=80" alt="برامج الأطفال في MCA">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 7. قسم برامج الكبار (Adults Section) ==================== -->
+        <section class="section bg-light adults-section" id="adults">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">للطلاب والخريجين والمهنيين</span>
+                    <h2 class="section-title">برامج الكبار <span>والتأهيل لسوق العمل</span></h2>
+                    <p class="section-desc">مسارات تدريبية مكثفة وعملية تساعدك على اكتساب مهارات العصر وبناء مسار مهني ناجح.</p>
+                </div>
+
+                <div class="adults-grid">
+                    <div class="adult-card">
+                        <i class="fas fa-terminal"></i>
+                        <h3>تعلم البرمجة من الصفر</h3>
+                        <p>مسار متكامل يبدأ من الأساسيات وحتى بناء مشاريع حقيقية قابلة للإضافة لمعرض أعمالك.</p>
+                    </div>
+                    <div class="adult-card">
+                        <i class="fas fa-desktop"></i>
+                        <h3>تطوير مهارات الكمبيوتر</h3>
+                        <p>إتقان برامج الأوفيس والأدوات المكتبية اللازمة لأي وظيفة إدارية أو تقنية.</p>
+                    </div>
+                    <div class="adult-card">
+                        <i class="fas fa-language"></i>
+                        <h3>تعلم اللغات</h3>
+                        <p>كورسات محادثة ولغات (إنجليزية، ألمانية، فرنسية) لفتح آفاق العمل والدراسة.</p>
+                    </div>
+                    <div class="adult-card">
+                        <i class="fas fa-user-shield"></i>
+                        <h3>الأمن السيبراني</h3>
+                        <p>تأهيل عملي في أساسيات أمن المعلومات وحماية الشبكات والأنظمة الرقمية.</p>
+                    </div>
+                    <div class="adult-card">
+                        <i class="fas fa-microchip"></i>
+                        <h3>الذكاء الاصطناعي</h3>
+                        <p>توظيف تقنيات الذكاء الاصطناعي في إنجاز الأعمال وصناعة المحتوى والبرمجة.</p>
+                    </div>
+                    <div class="adult-card">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>التأهيل لسوق العمل</h3>
+                        <p>مشاريع تطبيقية وتوجيه مستمر يضمن جاهزيتك الكاملة للمنافسة في سوق العمل.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 8. قسم لماذا تختار MCA؟ (Why Choose Us) ==================== -->
+        <section class="section why-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">مميزاتنا</span>
+                    <h2 class="section-title">لماذا تختار <span>MCA Academy؟</span></h2>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-sitemap"></i></div>
+                        <h3>محتوى تعليمي منظم</h3>
+                        <p>مناهج مدروسة ومتدرجة من الصفر حتى الاحتراف تناسب مستوى كل متدرب.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-user-tie"></i></div>
+                        <h3>مدربون متخصصون</h3>
+                        <p>نخبة من المدربين ذوي الخبرة العملية والقدرة على تبسيط المعلومات.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3>تطبيق عملي أثناء التعلم</h3>
+                        <p>التركيز على التدريب العملي والمشاريع التطبيقية في كل محاضرة.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-users"></i></div>
+                        <h3>برامج تناسب مختلف الأعمار</h3>
+                        <p>مسارات مخصصة للأطفال والناشئين والشباب والخريجين.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-seedling"></i></div>
+                        <h3>بيئة تعليمية محفزة</h3>
+                        <p>قاعات مجهزة وأجواء تفاعلية تشجع على الإبداع والمشاركة.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>متابعة وتقييم مستمر</h3>
+                        <p>تقييم دوري لمستوى المتدربين وتقديم تقارير متابعة وتوجيه مستمر.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+                        <h3>تنمية المهارات الشخصية والتقنية</h3>
+                        <p>بناء الثقة بالنفس ومهارات العرض والعمل الجماعي بجانب المهارات التقنية.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 9. قسم المدربون (Instructors) ==================== -->
+        <section class="section bg-light" id="instructors">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">فريق العمل</span>
+                    <h2 class="section-title">نخبة من <span>المدربين المتخصصين</span></h2>
+                    <p class="section-desc">يقود العملية التدريبية في MCA فريق يجمع بين الخبرة الأكاديمية والتطبيق العملي.</p>
+                </div>
+
+                <div class="instructors-grid">
+                    <div class="instructor-card">
+                        <div class="instructor-avatar"><i class="fas fa-code"></i></div>
+                        <h3>قسم البرمجة والتكنولوجيا</h3>
+                        <span class="role">مدربو البرمجة وتطوير الويب وICDL</span>
+                        <p>خبرة واسعة في تدريب الأطفال والشباب على لغات البرمجة وأدوات الذكاء الاصطناعي.</p>
+                    </div>
+                    <div class="instructor-card">
+                        <div class="instructor-avatar"><i class="fas fa-language"></i></div>
+                        <h3>قسم اللغات الأجنبية</h3>
+                        <span class="role">مدربو الإنجليزية والألمانية والفرنسية</span>
+                        <p>متخصصون في تنمية مهارات المحادثة والصوتيات بأساليب تفاعلية حديثة.</p>
+                    </div>
+                    <div class="instructor-card">
+                        <div class="instructor-avatar"><i class="fas fa-palette"></i></div>
+                        <h3>قسم الفنون والمهارات الإبداعية</h3>
+                        <span class="role">مدربو الخط العربي والرسم والحساب الذهني</span>
+                        <p>متخصصون في اكتشاف وتنمية المواهب الفنية والقدرات الذهنية للأطفال والكبار.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 10. قسم معرض الصور (Gallery) ==================== -->
+        <section class="section" id="gallery">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">من داخل الأكاديمية</span>
+                    <h2 class="section-title">معرض <span>الأنشطة والدورات</span></h2>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=600&q=80" alt="ورش العمل التدريبية">
+                        <div class="gallery-overlay"><span>ورش البرمجة العملية</span></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80" alt="تدريب الأطفال">
+                        <div class="gallery-overlay"><span>برامج تنمية مهارات الأطفال</span></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?auto=format&fit=crop&w=600&q=80" alt="العمل الجماعي">
+                        <div class="gallery-overlay"><span>مشاريع التخرج والتطبيق العملي</span></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80" alt="كورسات اللغات">
+                        <div class="gallery-overlay"><span>محاضرات اللغات والتواصل</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 11. قسم آراء الطلاب وأولياء الأمور (Testimonials) ==================== -->
+        <section class="section bg-light">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">تجارب حقيقية</span>
+                    <h2 class="section-title">آراء <span>الطلاب وأولياء الأمور</span></h2>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p>"تجربة ممتازة لابني في كورس برمجة الأطفال، مستوى التركيز والتفكير المنطقي اختلف تماماً وأصبح يصمم ألعابه بنفسه."</p>
+                        <h4>ولي أمر طالب – برامج الأطفال</h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p>"بدأت كورس البرمجة من الصفر في MCA، الشرح عملي جداً والمدربون متعاونون خطوة بخطوة حتى تنفيذ أول مشروع كامل."</p>
+                        <h4>متدرب – مسار البرمجة للكبار</h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p>"أفضل مكان لتعلم ICDL وأدوات الذكاء الاصطناعي في المنوفية، تنظيم رائع واهتمام حقيقي بمستوى كل متدرب."</p>
+                        <h4>متدربة – برامج التكنولوجيا</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 12. قسم الأسئلة الشائعة (FAQ Accordion) ==================== -->
+        <section class="section">
+            <div class="container faq-container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">استفساراتك تهمنا</span>
+                    <h2 class="section-title">الأسئلة <span>الشائعة</span></h2>
+                </div>
+
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>ما هي الأعمار المناسبة لبرامج الأطفال في MCA؟</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <p>نستقبل الأطفال بداية من عمر 6 سنوات وحتى 16 سنة، ويتم تقسيم المجموعات حسب الفئة العمرية والمستوى لضمان أفضل استفادة لكل طفل.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>هل يشترط وجود خبرة سابقة للالتحاق بكورسات البرمجة أو الكمبيوتر؟</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <p>لا يشترط أي خبرة سابقة؛ جميع البرامج تبدأ من المستوى التأسيسي (من الصفر) وتنتقل تدريجياً إلى التطبيق العملي والمشاريع المتقدمة.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>هل التدريب عملي أم نظري؟</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <p>نعتمد في MCA على التطبيق العملي بنسبة تتجاوز 80% أثناء المحاضرات، مع تكليف المتدربين بمشاريع تطبيقية وتقييم مستمر.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>كيف يمكنني حجز كورس أو الاستفسار عن المواعيد؟</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <p>يمكنك ملء نموذج التسجيل بالأسفل وسيتم تحويل بياناتك مباشرة عبر واتساب إلى إدارة الأكاديمية (أ/ أحمد فتحي) لتأكيد الحجز وإبلاغك بالمواعيد المتاحة.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 13. قسم التسجيل والتواصل (Registration & Contact) ==================== -->
+        <section class="section bg-light contact-section" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">ابدأ رحلتك التعليمية الآن</span>
+                    <h2 class="section-title">التسجيل <span>والتواصل معنا</span></h2>
+                    <p class="section-desc">سجل بياناتك في النموذج التالي وسيتم إرسال طلبك مباشرة عبر واتساب لتأكيد الحجز.</p>
+                </div>
+
+                <div class="contact-wrapper">
+                    <!-- معلومات التواصل -->
+                    <div class="contact-info">
+                        <h3>بيانات التواصل المباشر</h3>
+                        <p>يسعدنا الرد على جميع استفساراتكم ومساعدتكم في اختيار البرنامج التدريبي الأنسب.</p>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-user-tie"></i>
+                            <div>
+                                <span>المسؤول الإداري</span>
+                                <strong>أ/ أحمد فتحي</strong>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <span>رقم الهاتف والواتساب</span>
+                                <strong dir="ltr">01500104599</strong>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span>المقر</span>
+                                <strong>المنوفية – جمهورية مصر العربية</strong>
+                            </div>
+                        </div>
+
+                        <div class="direct-contact-btns">
+                            <a href="tel:01500104599" class="btn btn-primary btn-block">
+                                <i class="fas fa-phone"></i> اتصال هاتفي مباشر
+                            </a>
+                            <a href="https://wa.me/201500104599" target="_blank" rel="noopener" class="btn btn-whatsapp btn-block">
+                                <i class="fab fa-whatsapp"></i> تواصل مباشر عبر واتساب
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- نموذج التسجيل -->
+                    <form class="contact-form" id="registration-form" novalidate>
+                        <div class="form-group">
+                            <label for="fullName">الاسم بالكامل <span class="required">*</span></label>
+                            <input type="text" id="fullName" name="fullName" placeholder="أدخل الاسم الثلاثي" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">رقم الهاتف (واتساب) <span class="required">*</span></label>
+                                <input type="tel" id="phone" name="phone" placeholder="مثال: 010xxxxxxxx" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="age">العمر <span class="required">*</span></label>
+                                <input type="number" id="age" name="age" min="5" max="80" placeholder="أدخل العمر" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="category">الفئة <span class="required">*</span></label>
+                                <select id="category" name="category" required>
+                                    <option value="">-- اختر الفئة --</option>
+                                    <option value="أطفال">أطفال</option>
+                                    <option value="كبار">كبار</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="course">الكورس المطلوب <span class="required">*</span></label>
+                                <select id="course" name="course" required>
+                                    <option value="">-- اختر الكورس --</option>
+                                    <optgroup label="التكنولوجيا والبرمجة">
+                                        <option value="Programming – البرمجة">Programming – البرمجة</option>
+                                        <option value="Computer Science – علوم الحاسب">Computer Science – علوم الحاسب</option>
+                                        <option value="Cyber Security – الأمن السيبراني">Cyber Security – الأمن السيبراني</option>
+                                        <option value="Computer Skills – مهارات الكمبيوتر">Computer Skills – مهارات الكمبيوتر</option>
+                                        <option value="ICDL – الرخصة الدولية لقيادة الحاسب">ICDL – الرخصة الدولية لقيادة الحاسب</option>
+                                        <option value="Artificial Intelligence – الذكاء الاصطناعي">Artificial Intelligence – الذكاء الاصطناعي</option>
+                                    </optgroup>
+                                    <optgroup label="اللغات">
+                                        <option value="English – اللغة الإنجليزية">English – اللغة الإنجليزية</option>
+                                        <option value="German – اللغة الألمانية">German – اللغة الألمانية</option>
+                                        <option value="French – اللغة الفرنسية">French – اللغة الفرنسية</option>
+                                    </optgroup>
+                                    <optgroup label="المهارات الإبداعية">
+                                        <option value="Arabic Calligraphy – الخط العربي">Arabic Calligraphy – الخط العربي</option>
+                                        <option value="Drawing & Art – الرسم والفنون">Drawing & Art – الرسم والفنون</option>
+                                    </optgroup>
+                                    <optgroup label="برامج الأطفال">
+                                        <option value="Kids Programming – برمجة الأطفال">Kids Programming – برمجة الأطفال</option>
+                                        <option value="Kids Computer – كمبيوتر الأطفال">Kids Computer – كمبيوتر الأطفال</option>
+                                        <option value="English for Kids – الإنجليزية للأطفال">English for Kids – الإنجليزية للأطفال</option>
+                                        <option value="Mental Math & Youth Math">Mental Math & Youth Math</option>
+                                        <option value="Creative Skills for Kids">Creative Skills for Kids</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">رسالة إضافية (اختياري)</label>
+                            <textarea id="message" name="message" rows="3" placeholder="اكتب أي استفسار أو مواعيد مفضلة..."></textarea>
+                        </div>
+
+                        <!-- رسالة الخطأ أو التنبيه -->
+                        <div class="form-feedback" id="form-feedback"></div>
+
+                        <button type="submit" class="btn btn-whatsapp btn-submit">
+                            <i class="fab fa-whatsapp"></i> إرسال طلب التسجيل عبر WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== 14. تذييل الصفحة (Footer) ==================== -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <div class="logo footer-logo">
+                    <span class="logo-badge">MCA</span>
+                    <div class="logo-text">
+                        <strong>MCA Academy</strong>
+                        <small>Menoufia Courses Academy</small>
+                    </div>
+                </div>
+                <p>مؤسسة تعليمية وتدريبية متكاملة تهدف إلى بناء جيل متمكن من مهارات البرمجة والتكنولوجيا واللغات والفنون.</p>
+                <div class="social-links">
+                    <a href="https://wa.me/201500104599" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#contact" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#contact" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#contact" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#courses">الكورسات</a></li>
+                    <li><a href="#kids">برامج الأطفال</a></li>
+                    <li><a href="#adults">برامج الكبار</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>أبرز التخصصات</h4>
+                <ul>
+                    <li><a href="#courses">البرمجة والذكاء الاصطناعي</a></li>
+                    <li><a href="#courses">ICDL ومهارات الكمبيوتر</a></li>
+                    <li><a href="#courses">الأمن السيبراني</a></li>
+                    <li><a href="#courses">اللغات الأجنبية</a></li>
+                    <li><a href="#courses">برمجة الأطفال والحساب الذهني</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>تواصل معنا</h4>
+                <p><i class="fas fa-user"></i> أ/ أحمد فتحي</p>
+                <p><i class="fas fa-phone"></i> <span dir="ltr">01500104599</span></p>
+                <p><i class="fas fa-map-marker-alt"></i> محافظة المنوفية، مصر</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>جميع الحقوق محفوظة &copy; 2026 <strong>MCA – Menoufia Courses Academy</strong></p>
+        </div>
+    </footer>
+
+    <!-- ==================== 15. الأزرار العائمة (WhatsApp & Back to Top) ==================== -->
+    <a href="https://wa.me/201500104599?text=السلام%20عليكم%20MCA%20Academy،%20أرغب%20في%20الاستفسار%20عن%20الكورسات" class="floating-whatsapp" target="_blank" rel="noopener" aria-label="تواصل معنا عبر واتساب">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <button class="back-to-top" id="back-to-top" aria-label="العودة للأعلى">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ربط ملف الجافاسكريبت الخارجي -->
+    <script src="script.js"></script>
+</body>
+</html>
